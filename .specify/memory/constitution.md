@@ -1,55 +1,55 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- Sync Impact Report:
+Version change: 1.0.0 -> 1.1.0 (MINOR: Added Technology Stack section)
+Modified principles:
+  - PROJECT_NAME: [PROJECT_NAME] -> Humanoid and Robotic Book
+Added sections:
+  - Technology Stack
+Removed sections:
+  - PRINCIPLE_6_NAME and its description
+Templates requiring updates:
+  - .specify/templates/plan-template.md: ⚠ pending
+  - .specify/templates/spec-template.md: ⚠ pending
+  - .specify/templates/tasks-template.md: ⚠ pending
+  - .specify/templates/commands/*.md: ⚠ pending
+Follow-up TODOs:
+  - TODO(PRINCIPLE_1_DESCRIPTION): Define the description for Modularity.
+  - TODO(PRINCIPLE_2_DESCRIPTION): Define the description for Standardized Interfaces.
+  - TODO(PRINCIPLE_3_DESCRIPTION): Define the description for Testability.
+  - TODO(PRINCIPLE_4_DESCRIPTION): Define the description for Maintainability.
+  - TODO(PRINCIPLE_5_DESCRIPTION): Define the description for Observability.
+  - TODO(SECTION_3_CONTENT): Define the development workflow.
+  - TODO(GOVERNANCE_RULES): Define the governance rules.
+-->
+# Humanoid and Robotic Book Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First --->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Modularity
+TODO(PRINCIPLE_1_DESCRIPTION): Define the description for Modularity.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Standardized Interfaces
+TODO(PRINCIPLE_2_DESCRIPTION): Define the description for Standardized Interfaces.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Testability
+TODO(PRINCIPLE_3_DESCRIPTION): Define the description for Testability.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Maintainability
+TODO(PRINCIPLE_4_DESCRIPTION): Define the description for Maintainability.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Observability
+TODO(PRINCIPLE_5_DESCRIPTION): Define the description for Observability.
 
-### [PRINCIPLE_6_NAME]
+## Technology Stack
 
+The project utilizes the following technologies:
+- **UI Framework**: Docusaurus 3.9
+- **Deployment**: GitHub Pages
 
-[PRINCIPLE__DESCRIPTION]
+## Development Workflow
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+TODO(SECTION_3_CONTENT): Define the development workflow, including code review, testing gates, and deployment approval processes.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+TODO(GOVERNANCE_RULES): Define the governance rules, including amendment procedures, versioning policy, and compliance review expectations.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.1.0 | **Ratified**: 2025-12-02 | **Last Amended**: 2025-12-02
